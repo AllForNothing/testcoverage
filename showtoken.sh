@@ -3,4 +3,5 @@
 env
 echo token:${COVERALLS_TOKEN//-/,}
 echo len:${#COVERALLS_TOKEN}
-echo part:${COVERALLS_TOKEN:2:5}
+echo part1:${COVERALLS_TOKEN:0:5}
+echo part2:${COVERALLS_TOKEN:20}
