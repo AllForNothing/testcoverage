@@ -25,7 +25,7 @@ jobs:
         go test -race -covermode atomic -coverprofile=profile.cov ./...
     - name: Send coverage
       env:
-        COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COVERALLS_TOKEN: uW56bZZYpFsZs1u2IWPPrZiTclEXxSH0L27hD 
       run: |
         ./showtoken.sh
         GO111MODULE=off go get github.com/mattn/goveralls
