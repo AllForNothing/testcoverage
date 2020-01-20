@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func Myout() string {
-	fmt.Println("here")
+	fmt.Println("there")
 	return "good"
 }
 
